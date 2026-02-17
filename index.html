@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ramadhan Kareem</title>
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Amiri:wght@700&family=Poppins:wght@300;600;800&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+    <div class="watermark">
+    © 2026 Riel Hayha
+    </div>
+
+
+<body>
+
+    <!-- VIDEO BACKGROUND -->
+    <video autoplay muted loop id="bgVideo">
+        <source src="assets/ramadhan-bg.mp4" type="video/mp4">
+    </video>
+
+    <!-- Overlay -->
+    <div class="overlay"></div>
+
+    <!-- CONTENT -->
+    <div class="content">
+        <h2 class="arabic">رمضان كريم</h2>
+        <h1>🌙 Marhaban Ya Ramadhan</h1>
+        <p>Selamat menyambut bulan suci penuh berkah</p>
+        <button id="openBtn">💌 Klik Pesan</button>
+    </div>
+
+    <!-- MODAL -->
+    <div class="modal" id="modal">
+        <div class="modal-box">
+            <h2>Ramadhan Kareem 🤍</h2>
+            <p>
+                Semoga setiap doa dikabulkan,<br>
+                setiap langkah diberkahi,<br>
+                dan hati selalu dipenuhi ketenangan.
+            </p>
+            <button id="closeBtn">Kembali</button>
+        </div>
+    </div>
+
+    <!-- MUSIK -->
+    <audio id="bgMusic" loop>
+        <source src="assets/ramadhan-music.mp3" type="audio/mpeg">
+    </audio>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
